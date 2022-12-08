@@ -1,0 +1,31 @@
+* {
+margin: 0;
+}
+.background {
+  height: 100vh;
+  background-color: burlywood;
+  padding: 2vw;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    margin: 1vh 30px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.static{
+    background-color: blue;
+    position: static;
+}
+.relative{
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    bottom: 100px;
+    right: 100px;
+}
