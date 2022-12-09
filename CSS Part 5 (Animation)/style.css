@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+  }
+  
+  .background {
+    background-color: burlywood;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: yellow;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    bottom: 50px;
+    left: 50px;
+    animation-name: kamal;
+    animation-duration: 2s;
+    /* animation-iteration-count: 5;    count wena wara gannna */
+    animation-iteration-count: infinite;    /* infinity loop animation */
+    animation-direction: alternate;        /* animation eka idiriyta and piti passat ynwa */
+}
+  
+  @keyframes kamal {
+    from {
+      width: 5vw;
+      background-color: red;
+    }
+    to {
+      width: 80vw;
+      background-color: green;
+    }
+  }
+  
+  /* animation-name - namak witharai */
+  /* animation-duration - animation eka yana kalaya */
