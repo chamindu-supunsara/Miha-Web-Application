@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+  }
+  
+  .background {
+    height: 200vh;
+    background-color: deeppink;
+  }
+  
+  .container {
+    /* background-color: red; */
+    /* margin: 1vw; */
+    width: 50%;
+    height: 20vh;
+    color: white;
+  }
+  
+  .con-static {
+    background-color: purple;
+    position: static;
+  }
+  
+  .con-relative {
+    background-color: darkblue;
+    position: relative;
+    /* top: -50px; */
+    /* left: 100px; */
+    /* bottom: 50px; */
+    /* right: 50px; */
+  }
+  
+  .con-fixed {
+    background-color: red;
+    position: fixed;
+    top: 50px;
+    /* left: 100px; */
+    /* right: 100px; */
+    /* bottom: 50px; */
+  }
+  
+  .con-sticky {
+    background-color: darkgreen;
+    position: sticky;
+    top: 100px;
+    left: 50px;
+    /* bottom: 500px; */
+    /* right: 50px; */
+  }
+  
+  .con-absolute {
+    background-color: blueviolet;
+    position: absolute;
+    /* top: 50px;
+    left: 100px; */
+    /* bottom: 50px; */
+    right: 50px;
+  }
