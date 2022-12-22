@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div>
+        <label for="number1">Number 01 :</label>
+        <input id="number1" />
+        <br><br>
+        <label for="number2">Number 02 :</label>
+        <input id="number2" />
+        <h3>Answer: <span id="answer">0</span></h3>
+        <button onclick="sum()">SUM</button>
+        <br><br>
+        <button onclick="min()">MINUS</button>
+        <br><br>
+        <button onclick="div()">DEVIDE</button>
+        <br><br>
+        <button onclick="mul()">MULTI</button>
+    </div>
+
+    <script>
+        function sum() {
+            const number1 = document.getElementById("number1").value;
+            const number2 = document.getElementById("number2").value;
+
+            const answer = parseInt(number1) + parseInt(number2);
+
+            document.getElementById("answer").innerText = answer;
+        }
+
+        function min() {
+            const number1 = document.getElementById("number1").value;
+            const number2 = document.getElementById("number2").value;
+
+            const answer = parseInt(number1) - parseInt(number2);
+
+            document.getElementById("answer").innerText = answer;
+        }
+
+        function div() {
+            const number1 = document.getElementById("number1").value;
+            const number2 = document.getElementById("number2").value;
+
+            const answer = parseInt(number1) / parseInt(number2);
+
+            document.getElementById("answer").innerText = answer;
+        }
+
+        function mul() {
+            const number1 = document.getElementById("number1").value;
+            const number2 = document.getElementById("number2").value;
+
+            const answer = parseInt(number1) * parseInt(number2);
+
+            document.getElementById("answer").innerText = answer;
+        }
+
+
+
+    </script>
+</body>
+
+</html>
