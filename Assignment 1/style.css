@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+.discount{
+    background-color: black;
+    color: white;
+    position: fixed;
+    height: 40px;
+    width: 100vw;
+    font-size: 35px;
+    text-align: center;
+    animation-name: dis;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+@keyframes dis {
+    from {
+      width: 100vw;
+      background-color: red;
+    }
+    to {
+      width: 120vw;
+      background-color: green;
+    }
+}
+  
+.background{
+    background-image: url(/background.jpg);
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+}
+img {
+    width: 80px;
+    height: 80px;
+    padding: 1vw 95vh;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+h1{
+    text-align: center;
+    font-size: 75px;
+    font-style: bold;
+    color: rgb(234, 29, 29);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: -3vw;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    margin: 1vh 30px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.relative1{
+    background-image: url(/Tinsel.png);
+    background-position: center;
+    background-size: cover;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    bottom: 100px;
+    right: 100px;
+}
+.relative2{
+    background-image: url(/tree.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(66, 188, 66);
+    position: relative;
+    top: -148px;
+    left: 420px;
+    bottom: 100px;
+    right: 100px;
+}
+.relative3{
+    background-image: url(/Ornament.png);
+    background-position: center;
+    background-size: cover;
+    background-color: red;
+    position: relative;
+    top: -396px;
+    left: 750px;
+    bottom: 100px;
+    right: 100px;
+}
+.relative4{
+    background-image: url(/light.png);
+    background-position: center;
+    background-size: cover;
+    background-color: red;
+    position: relative;
+    top: -643px;
+    left: 1080px;
+    bottom: 100px;
+    right: 100px;
+}
+#btn{
+    background-color: rgb(220, 220, 129);
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px 32px;
+    padding: 8px;
+}
+#btn:hover{
+    color: red;
+    background-color: rgb(78, 245, 56);
+}
+#btn:active{
+    color: rgb(78, 245, 56);
+    background-color: red;
+}
